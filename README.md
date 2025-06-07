@@ -45,7 +45,7 @@ results = model.train(data="coco8.yaml", epochs=100, imgsz=640, device=[-1, -1])
 ```
 
 Note: Replace coco8.yaml with your own dataset YAML file if you're using a custom dataset. After training, copy the best.pt weight file into the weights/ directory for inference.
-#### training fast_reid
+#### Training fast_reid
 We use [FastReID](https://github.com/JDAI-CV/fast-reid)
 Please follow the [official guide](https://github.com/JDAI-CV/fast-reid/blob/master/GETTING_STARTED.md) to set up and train:
 
