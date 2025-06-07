@@ -71,6 +71,7 @@ You can modify the config path and dataset according to your use case.
 
 ### How to inference
  ```CUDA_VISIBLE_DEVICES=4 python demo.py --name '0902_130006_131041'``` <br>
+ 
 Demo with colab: [ipynb file](https://colab.research.google.com/drive/1xrGFTbhR0yjhzXqRxamLNtGMQAe-V5sH#scrollTo=3eR65IfWoKbz)
 
 📥 Pretrained Weights:
