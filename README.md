@@ -18,10 +18,9 @@ pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --e
 pip install --user --requirement  requirements.txt # pip dependencies
 ```
 
-### Weights
-Link drive [Weights](https://drive.google.com/drive/folders/1mLgClpvm73F2PfR_laCfPdZw_sNB_09q?usp=sharing)
+### How to train
 
-### Usage
 
-Demo :    ```./run_submit.sh``` <br>
-Demo with colab: [ipynb file](https://colab.research.google.com/drive/1xrGFTbhR0yjhzXqRxamLNtGMQAe-V5sH#scrollTo=3eR65IfWoKbz)
+### How to inference
+ ```CUDA_VISIBLE_DEVICES=4 python demo.py --name '0902_130006_131041'``` <br>
+
